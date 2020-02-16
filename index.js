@@ -11,4 +11,7 @@ class Deciduous extends Tree{
   constructor(species,name){
     this.name=name;
   }
+  static definition(){
+    return super.definition() + "A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves.";
+  }
 }

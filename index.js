@@ -8,7 +8,7 @@ class Tree{
   }
 }
 class Deciduous extends Tree{
-  constructor(species){
-    this.species=species;
+  constructor(species,name){
+    this.name=name;
   }
 }
